@@ -67,12 +67,12 @@ Web Application to Simulate Load Test
         ```
 
 ### API Logs
-   Logs of API consuming 5GB memory
+   Server Logs of API consuming 5GB memory
 
    ![](screenshots/MemoryLoadTestLogs.PNG)
     
 ### Memory Consumption Graph
-   Graph of API consuming 5GB memory
+   Graph of Server memory by API consuming 5GB memory
 
    ![](screenshots/MemoryLoadTestGraph.PNG)
 
