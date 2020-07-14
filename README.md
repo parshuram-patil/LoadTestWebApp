@@ -66,9 +66,13 @@ Web Application to Simulate Load Test
         curl http://127.0.0.1:5000/load/test/memory?allowedMemory=4
         ```
 
-- Server logs of API consuming 5GB Memory
+### API Logs
+   Logs of API consuming 5GB memory
 
-    ![](screenshots/MemoryLoadTestLogs.PNG)
+   ![](screenshots/MemoryLoadTestLogs.PNG)
     
-    ![](screenshots/MemoryLoadTestGraph.PNG)
+### Memory Consumption Graph
+   Graph of API consuming 5GB memory
+
+   ![](screenshots/MemoryLoadTestGraph.PNG)
 
