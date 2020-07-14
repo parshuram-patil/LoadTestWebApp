@@ -21,13 +21,14 @@ def start_load_test(memory_to_consume_gb):
     log("\t Application will Consume " + convert_to_gb(memory_to_consume_gb) + "Gb of Memory")
     log("******************************************************************")
 
+    chunks = 10
     byte_array_store = []
     cnt = 1
     consumed_memory = 0
-    while cnt < 11:
-        byte_array_store.append(bytearray(round(memory_to_consume_gb / 10)))
+    while cnt <= chunks:
+        byte_array_store.append(bytearray(round(memory_to_consume_gb / chunks)))
         time.sleep(5)
-        consumed_memory += round(memory_to_consume_gb / 10)
+        consumed_memory += round(memory_to_consume_gb / chunks)
         log("Consumed " + convert_to_gb(consumed_memory) + "GB of Memory")
         cnt += 1
 
