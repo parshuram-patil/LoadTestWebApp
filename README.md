@@ -31,7 +31,7 @@ Web Application to Simulate Load Test
  5.  Running the Application
  
      ```
-        (ENV) $ python app.py
+     (ENV) $ python app.py
      ```
     
 ## Memory Test
