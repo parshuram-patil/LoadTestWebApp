@@ -67,5 +67,8 @@ Web Application to Simulate Load Test
         ```
 
 - Server logs of API consuming 5GB Memory
-    ![](screenshots/MemoryLoadTest.PNG)
+
+    ![](screenshots/MemoryLoadTestLogs.PNG)
+    
+    ![](screenshots/MemoryLoadTestGraph.PNG)
 
