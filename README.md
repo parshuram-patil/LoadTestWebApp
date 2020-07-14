@@ -61,10 +61,11 @@ Web Application to Simulate Load Test
         ```
         curl http://127.0.0.1:5000/load/test/memory?allowedMemory=10
         ```
-    - Consuming 4 GB
+    - Consuming 5 GB
         ```
         curl http://127.0.0.1:5000/load/test/memory?allowedMemory=4
         ```
 
-
+- Server logs of API consuming 5GB Memory
+    ![](screenshots/MemoryLoadTest.PNG)
 
